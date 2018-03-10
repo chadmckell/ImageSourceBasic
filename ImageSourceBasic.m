@@ -4,9 +4,9 @@
 % Author: Chad McKell
 % Date: 06.03.17
 %
-% Description: This script computes a simulated impulse response from a
+% Description: This script computes the simulated impulse response of a
 % three-dimensional room with flat walls positioned perpendicular to each
-% other.  The dimensions of the room (i.e. Lx, Ly, and Lz) are equal.
+% other.  The dimensions of the room (Lx, Ly, and Lz) are equal.
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~%
 tic; close; clc; clear;
 
