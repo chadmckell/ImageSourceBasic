@@ -152,8 +152,7 @@ soundsc(y,Fs);
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~%
 
 % Define filename. Include parameter values in filename.
-filename = ['IR_' num2str(L) 'x' num2str(L) 'x' num2str(L)...
-    '_s1669455_McKell.wav'];
+filename = ['IR_' num2str(L) 'x' num2str(L) 'x' num2str(L)];
 
 % Write .wav file to MATLAB pwd at 16 bits
 audiowrite(filename, y, Fs, 'BitsPerSample', 16);
